@@ -80,7 +80,7 @@ def main():
         st.pyplot()
 
     #@st.cache(persist=True)
-    if select=='Predcition':
+    if select=='Predcition (all regions)':
         st.title("Total Price prediction on basis of all regions")
 
         @st.cache(persist=True)
