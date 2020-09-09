@@ -20,9 +20,8 @@ def main():
     avocado_df = load_data()
     avocado_df = avocado_df.sort_values("Date")
     st.write(avocado_df)
-
-    if st.checkbox("Show Visualizations", False, key=0):
-        flag1 = 1
+    select = st.selectbox('Select option',['Visualizations','Predcition (all regions)','Prediction (region specific)'], key='3')
+    if select=='Visualizations':
     #@st.cache(persist=True)
         def date_avg(avocado_df):
             plt.figure(figsize=(10,10))
@@ -81,8 +80,8 @@ def main():
         st.pyplot()
 
     #@st.cache(persist=True)
-    st.title("Total Price prediction on basis of all regions")
-    if st.checkbox("Show", False, key=1):
+    if select=='Predcition':
+        st.title("Total Price prediction on basis of all regions")
 
         @st.cache(persist=True)
         def preprocess(avocado_df):
@@ -104,8 +103,8 @@ def main():
         st.pyplot()
 
     #@st.cache(persist=True)
-    st.title("Prices prediction in specific region")
-    if st.checkbox("Show", True, key=2):
+    if select=='Prediction (region specific)':
+        st.title("Prices prediction in specific region")
         choice = st.selectbox('Pick region', ('Albany', 'Atlanta', 'BaltimoreWashington', 'Boise', 'Boston',
            'BuffaloRochester', 'California', 'Charlotte', 'Chicago',
            'CincinnatiDayton', 'Columbus', 'DallasFtWorth', 'Denver',
@@ -159,3 +158,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
