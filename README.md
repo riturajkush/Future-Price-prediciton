@@ -30,8 +30,7 @@ The version of dependencics used are mentioned in the requirements.txt file of t
   * A holiday list that can be manually provided.
   
  *Additive regression models takes the form:
-      A = B + \sum_{j=1}^p f<sub>j</sub>(X<sub>j</sub>) + \(\epsilon\)
-      A = B + \sum_{j=1}^{p}(f<sub>j</sub>(X<sub>j</sub>))
+      ![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cgamma%20%3D%20%5Cbeta%20%20%2B%20%5Csum_%7Bj%3D1%7D%5E%7Bp%7D%28f_i%20X_i%29%20%2B%20%5Cepsilon&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
       
  * The functions f<sub>j</sub>(X<sub>j</sub>) are unknown smoothing functions fit from the data
  
