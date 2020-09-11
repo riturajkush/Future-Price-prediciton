@@ -31,6 +31,7 @@ The version of dependencics used are mentioned in the requirements.txt file of t
   
  *Additive regression models takes the form:
       A = B + \sum_{j=1}^p f<sub>j</sub>(X<sub>j</sub>) + \(\epsilon\)
+      A = B + \sum_{j=1}^{p}f<sub>j</sub>(X<sub>j</sub>)
       
  * The functions f<sub>j</sub>(X<sub>j</sub>) are unknown smoothing functions fit from the data
  
