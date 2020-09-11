@@ -31,7 +31,7 @@ The version of dependencics used are mentioned in the requirements.txt file of t
   
  * Additive regression models takes the form:
 
-      ![equation](https://bit.ly/3ircFJy)
+      <img src ="equation.png">
       
  * The functions f<sub>j</sub>(X<sub>j</sub>) are unknown smoothing functions fit from the data
  
