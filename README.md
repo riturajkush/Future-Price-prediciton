@@ -30,7 +30,7 @@ The version of dependencics used are mentioned in the requirements.txt file of t
   * A holiday list that can be manually provided.
   
  * Additive regression models takes the form:
- 
+
       ![equation](https://bit.ly/3ircFJy)
       
  * The functions f<sub>j</sub>(X<sub>j</sub>) are unknown smoothing functions fit from the data
