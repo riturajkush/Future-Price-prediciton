@@ -39,6 +39,15 @@ The version of dependencics used are mentioned in the requirements.txt file of t
  Type in cmd or terminal
  > streamlit run app.py
  
+ 
+<br>
+<img src ="prediction.png">
+<br>
+
+
+
+
+ 
  # About Me
  You can check my other projects on:
 * [Github](https://github.com/riturajkush)
